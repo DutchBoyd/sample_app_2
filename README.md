@@ -26,7 +26,11 @@ Finished up to 3.1
 
 ----
 
+3.2 - Understanding Test Driven Development
+    - Using the rspec test module and Capybara DSL
+    - Formulating tests and then running them with "bundle exec rspec spec/requests/static_pages_spec.rb"
 
+----
 
 
 
