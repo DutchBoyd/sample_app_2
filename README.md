@@ -43,4 +43,11 @@ Finished Chapter 3
 	 
 ----
 
-
+Playing around in Chapter 4
+  - Basically a Ruby tutorial explaining the different data types, rails console command (basically an irb but in the development environment, allowing use of gems?)
+  - shortcut for rails console is rails c
+  - Worked up an array of card ranks and another of suits, used the shuffle on each of them and added them together for a random card, which is kind of cool.
+  - As practice for Ruby, probably should work on shuffling and populating a deck.
+  - Worked up to 4.3.3 (Hashes and Symbols)
+  - Learned about the Ruby Koans site, which is an exercise to better understand Ruby. Looks cool and seems to be a way to better understand TDD and Ruby.
+  - Still don't understand why my lists work in 3.1 description but not in 3.2 description.
