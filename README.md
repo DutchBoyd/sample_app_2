@@ -32,5 +32,15 @@ Finished up to 3.1
 
 ----
 
+November 3, 2013
+
+Finished Chapter 3
+     - Learned about the application layout file
+     - Learned about the yield() function in erb (embedded ruby) files
+     - Learned the difference between (%= %) and (% %) tags (equals passes the argument to the html page, % just executes the ruby code)
+	 - Skipped the advanced exercises having to do with eliminating the "bundle exec" typing requirement, using guard, allowing test runs in sublime
+	 - Learned about the "let" command in the rspec tests, which allow you to set variables instead of repeating yoruself
+	 
+----
 
 
