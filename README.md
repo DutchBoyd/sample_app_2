@@ -51,3 +51,17 @@ Playing around in Chapter 4
   - Worked up to 4.3.3 (Hashes and Symbols)
   - Learned about the Ruby Koans site, which is an exercise to better understand Ruby. Looks cool and seems to be a way to better understand TDD and Ruby.
   - Still don't understand why my lists work in 3.1 description but not in 3.2 description.
+
+-----
+
+November 7, 2013
+Finished Chapter 4, an overview of Ruby
+
+  - Learned a little about class objects
+  - In Ruby, everything is an object
+  - We can add methods to built-in classes in Ruby (like String, or Integer)
+  - Gave a palindrome? example
+  
+-----
+
+
