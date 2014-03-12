@@ -3,6 +3,7 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
+$greenMediumLight: #bfdbb2;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -44,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em;
+  color: white;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
@@ -82,15 +84,39 @@ p {
   }
 }
 
+.navbar {
+  .navbar-inner {
+    background-color: #4c504a;
+    background-image: none;
+  }
+}
+
+.navbar .brand, .navbar .nav > li > a {
+    color: white;
+    /* background-color: white; */
+}
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: black;
+    background-color: $grayMediumLight; 
+}
+
+
 /* footer */
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
+  color: black;
+  background-color: white;
+  small {
+    color: black;
+    background-color: white;
+  }
+
   a {
-    color: $gray;
+    color: black;
+    background-color: white;
     &:hover {
       color: $grayDarker;
     }
@@ -173,4 +199,31 @@ input {
   width: 100%;
   margin-top: 45px;
   @include box_sizing;
+}
+
+/* body */
+
+body {
+  background: url('sealstakes-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-unit {
+  padding: 50px;
+  margin-bottom: 2em;
+  background-color: $grayDark;
+  /* height:300px; */
+  opacity: .8;
+}
+
+.hero-unit h1, .hero-unit h2, .hero-unit p {
+  color: white;
+}
+
+.hero-unit ul {
+  color: $greenMediumLight;
+  text-align: left;
 }
