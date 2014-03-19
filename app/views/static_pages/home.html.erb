@@ -1,10 +1,30 @@
-<div class="center hero-unit">
-  <h1>Welcome to Seal Stakes!</h1>
+<% if signed_in? %>
+  <div class="hero-unit">
+    <div>
+    	<section>
+    		<%= render 'shared/user_info' %>
+    	</section>
+    	<section>
+    		<%= render 'shared/micropost_form' %>
+    	</section>
+    </div>
+    <div>
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div
 
-  <h2>
-    Buy and sell shares in all of the best bitcoin poker tournaments online!
-  </h2>
+  </div>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
-</div>
+<% else %>
 
+  <div class="hero-unit">
+    <h1>Welcome to Seal Stakes!</h1>
+
+    <h2>
+      Buy and sell shares in all of the best bitcoin poker tournaments online!
+    </h2>
+
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+  </div>
+
+<% end %>

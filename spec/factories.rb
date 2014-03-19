@@ -9,4 +9,10 @@ FactoryGirl.define do
     	admin true
     end
   end
+
+  factory :micropost do
+  	content "Being slightly lactose intolerant isn't gonna stop me from eating this yummy gelato!"
+	user
+  end
+
 end
