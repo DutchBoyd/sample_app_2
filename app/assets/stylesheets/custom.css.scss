@@ -219,7 +219,7 @@ body {
   margin-bottom: 2em;
   background-color: $grayDark;
   /* height:300px; */
-  opacity: .8;
+  opacity: 1;
 }
 
 .hero-unit h1, .hero-unit h2, .hero-unit p {
@@ -233,6 +233,25 @@ body {
 
 /* sign-up form */
 
-.signup {
+.form {
   color: white;
+}
+
+.alert {
+  margin-top: 50px;
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid $grayLighter;
+    &:last-child {
+      border-bottom: 1px solid $grayLighter;
+    }
+  }
 }
